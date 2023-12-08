@@ -110,13 +110,10 @@ function useThemeSwitch() {
 /* harmony export */   ET: () => (/* binding */ GithubIcon),
 /* harmony export */   NW: () => (/* binding */ SunIcon),
 /* harmony export */   P9: () => (/* binding */ LinkArrow),
-/* harmony export */   Zm: () => (/* binding */ TwitterIcon),
-/* harmony export */   cH: () => (/* binding */ PinterestIcon),
 /* harmony export */   kL: () => (/* binding */ MoonIcon),
-/* harmony export */   nI: () => (/* binding */ LinkedInIcon),
-/* harmony export */   uf: () => (/* binding */ DribbbleIcon)
+/* harmony export */   nI: () => (/* binding */ LinkedInIcon)
 /* harmony export */ });
-/* unused harmony export CircularText */
+/* unused harmony exports TwitterIcon, PinterestIcon, DribbbleIcon, CircularText */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
@@ -140,7 +137,7 @@ const GithubIcon = ({ className, ...rest })=>/*#__PURE__*/ (0,react_jsx_runtime_
             })
         ]
     });
-const TwitterIcon = ({ className, ...rest })=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("svg", {
+const TwitterIcon = ({ className, ...rest })=>/*#__PURE__*/ _jsxs("svg", {
         xmlns: "http://www.w3.org/2000/svg",
         width: "1em",
         height: "1em",
@@ -148,11 +145,11 @@ const TwitterIcon = ({ className, ...rest })=>/*#__PURE__*/ (0,react_jsx_runtime
         ...rest,
         className: `w-full h-auto ${className}`,
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+            /*#__PURE__*/ _jsx("path", {
                 fill: "none",
                 d: "M0 0h256v209H0z"
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+            /*#__PURE__*/ _jsx("path", {
                 fill: "#55acee",
                 d: "M256 25.45a105.04 105.04 0 0 1-30.166 8.27c10.845-6.5 19.172-16.793 23.093-29.057a105.183 105.183 0 0 1-33.351 12.745C205.995 7.201 192.346.822 177.239.822c-29.006 0-52.523 23.516-52.523 52.52 0 4.117.465 8.125 1.36 11.97-43.65-2.191-82.35-23.1-108.255-54.876-4.52 7.757-7.11 16.78-7.11 26.404 0 18.222 9.273 34.297 23.365 43.716a52.312 52.312 0 0 1-23.79-6.57c-.003.22-.003.44-.003.661 0 25.447 18.104 46.675 42.13 51.5a52.592 52.592 0 0 1-23.718.9c6.683 20.866 26.08 36.05 49.062 36.475-17.975 14.086-40.622 22.483-65.228 22.483-4.24 0-8.42-.249-12.529-.734 23.243 14.902 50.85 23.597 80.51 23.597 96.607 0 149.434-80.031 149.434-149.435 0-2.278-.05-4.543-.152-6.795A106.748 106.748 0 0 0 256 25.45"
             })
@@ -193,7 +190,7 @@ const LinkedInIcon = ({ className, ...rest })=>/*#__PURE__*/ (0,react_jsx_runtim
             })
         ]
     });
-const PinterestIcon = ({ className, ...rest })=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("svg", {
+const PinterestIcon = ({ className, ...rest })=>/*#__PURE__*/ _jsxs("svg", {
         xmlns: "http://www.w3.org/2000/svg",
         width: "1em",
         height: "1em",
@@ -201,17 +198,17 @@ const PinterestIcon = ({ className, ...rest })=>/*#__PURE__*/ (0,react_jsx_runti
         ...rest,
         className: `w-full h-auto ${className}`,
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+            /*#__PURE__*/ _jsx("path", {
                 fill: "none",
                 d: "M0 0h256v256H0z"
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+            /*#__PURE__*/ _jsx("path", {
                 fill: "#CB1F27",
                 d: "M0 128.002c0 52.414 31.518 97.442 76.619 117.239-.36-8.938-.064-19.668 2.228-29.393 2.461-10.391 16.47-69.748 16.47-69.748s-4.089-8.173-4.089-20.252c0-18.969 10.994-33.136 24.686-33.136 11.643 0 17.268 8.745 17.268 19.217 0 11.704-7.465 29.211-11.304 45.426-3.207 13.578 6.808 24.653 20.203 24.653 24.252 0 40.586-31.149 40.586-68.055 0-28.054-18.895-49.052-53.262-49.052-38.828 0-63.017 28.956-63.017 61.3 0 11.152 3.288 19.016 8.438 25.106 2.368 2.797 2.697 3.922 1.84 7.134-.614 2.355-2.024 8.025-2.608 10.272-.852 3.242-3.479 4.401-6.409 3.204-17.884-7.301-26.213-26.886-26.213-48.902 0-36.361 30.666-79.961 91.482-79.961 48.87 0 81.035 35.364 81.035 73.325 0 50.213-27.916 87.726-69.066 87.726-13.819 0-26.818-7.47-31.271-15.955 0 0-7.431 29.492-9.005 35.187-2.714 9.869-8.026 19.733-12.883 27.421a127.897 127.897 0 0 0 36.277 5.249c70.684 0 127.996-57.309 127.996-128.005C256.001 57.309 198.689 0 128.005 0 57.314 0 0 57.309 0 128.002Z"
             })
         ]
     });
-const DribbbleIcon = ({ className, ...rest })=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("svg", {
+const DribbbleIcon = ({ className, ...rest })=>/*#__PURE__*/ _jsxs("svg", {
         xmlns: "http://www.w3.org/2000/svg",
         width: "1em",
         height: "1em",
@@ -219,15 +216,15 @@ const DribbbleIcon = ({ className, ...rest })=>/*#__PURE__*/ (0,react_jsx_runtim
         ...rest,
         className: `w-full h-auto ${className}`,
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+            /*#__PURE__*/ _jsx("path", {
                 fill: "none",
                 d: "M0 0h256v256H0z"
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+            /*#__PURE__*/ _jsx("path", {
                 fill: "#E74D89",
                 d: "M128 8.5c66 0 119.4 53.4 119.4 119.3S194 247.2 128 247.2 8.6 193.8 8.6 127.9 62 8.5 128 8.5Z"
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+            /*#__PURE__*/ _jsx("path", {
                 fill: "#B2215A",
                 d: "M128 255.7c-70.6 0-128-57.3-128-127.8C0 57.3 57.4 0 128 0s128 57.3 128 127.8-57.4 127.9-128 127.9Zm107.9-110.4c-3.7-1.2-33.8-10.1-68.1-4.7 14.3 39.2 20.1 71.2 21.2 77.8 24.6-16.5 42.1-42.7 46.9-73.1Zm-65.2 83.2c-1.6-9.6-8-43-23.3-82.8-.2.1-.5.2-.7.2-61.7 21.5-83.8 64.2-85.8 68.2 18.5 14.4 41.8 23 67.1 23 15.1.1 29.6-3 42.7-8.6ZM46.8 201c2.5-4.2 32.5-53.8 88.9-72.1 1.4-.5 2.9-.9 4.3-1.3-2.7-6.2-5.7-12.4-8.9-18.5-54.6 16.3-107.6 15.6-112.4 15.5 0 1.1-.1 2.2-.1 3.3.1 28.1 10.7 53.7 28.2 73.1ZM21 105.6c4.9.1 49.9.3 101.1-13.3C104 60.1 84.4 33.1 81.6 29.2 50.9 43.6 28.1 71.8 21 105.6Zm81.4-83.8c3 4 22.9 31 40.8 63.9 38.9-14.6 55.3-36.6 57.3-39.4-19.3-17.1-44.7-27.5-72.5-27.5-8.8 0-17.4 1.1-25.6 3Zm110.2 37.1c-2.3 3.1-20.6 26.6-61 43.1 2.5 5.2 5 10.5 7.3 15.8.8 1.9 1.6 3.8 2.4 5.6 36.4-4.6 72.5 2.8 76.1 3.5-.3-25.7-9.5-49.4-24.8-68Z"
             })
@@ -976,12 +973,6 @@ const Navbar = ()=>{
                                 className: "mx-4 lg:m-0 lg:my-2",
                                 href: "/projects",
                                 title: "Projects"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(CustomMobileLink, {
-                                toggle: handleClick,
-                                className: "ml-4 lg:m-0 lg:my-2",
-                                href: "/articles",
-                                title: "Articles"
                             })
                         ]
                     }),
@@ -990,21 +981,8 @@ const Navbar = ()=>{
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_6__.motion.a, {
                                 target: "_blank",
-                                className: "w-6 m-1 mr-3 sm:mx-1",
-                                href: "#",
-                                whileHover: {
-                                    y: -2
-                                },
-                                whileTap: {
-                                    scale: 0.9
-                                },
-                                "aria-label": "Checkout my twitter profile",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Icons__WEBPACK_IMPORTED_MODULE_5__/* .TwitterIcon */ .Zm, {})
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_6__.motion.a, {
-                                target: "_blank",
                                 className: "w-6 m-1 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1",
-                                href: "#",
+                                href: "https://github.com/miguemigue25",
                                 whileHover: {
                                     y: -2
                                 },
@@ -1017,7 +995,7 @@ const Navbar = ()=>{
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_6__.motion.a, {
                                 target: "_blank",
                                 className: "w-6 m-1 mx-3 sm:mx-1",
-                                href: "#",
+                                href: "https://www.linkedin.com/in/miguel-ortiz-ortiz/",
                                 whileHover: {
                                     y: -2
                                 },
@@ -1026,32 +1004,6 @@ const Navbar = ()=>{
                                 },
                                 "aria-label": "Checkout my linkedin profile",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Icons__WEBPACK_IMPORTED_MODULE_5__/* .LinkedInIcon */ .nI, {})
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_6__.motion.a, {
-                                target: "_blank",
-                                className: "w-6 m-1 mx-3 bg-light rounded-full sm:mx-1",
-                                href: "https://www.linkedin.com/in/miguel-ortiz-ortiz/",
-                                whileHover: {
-                                    y: -2
-                                },
-                                whileTap: {
-                                    scale: 0.9
-                                },
-                                "aria-label": "Checkout my pinterest profile",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Icons__WEBPACK_IMPORTED_MODULE_5__/* .PinterestIcon */ .cH, {})
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_6__.motion.a, {
-                                target: "_blank",
-                                className: "w-6 m-1 mx-3 sm:mx-1",
-                                href: "#",
-                                whileHover: {
-                                    y: -2
-                                },
-                                whileTap: {
-                                    scale: 0.9
-                                },
-                                "aria-label": "Checkout my dribbble profile",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Icons__WEBPACK_IMPORTED_MODULE_5__/* .DribbbleIcon */ .uf, {})
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
                                 onClick: ()=>setMode(mode === "light" ? "dark" : "light"),
