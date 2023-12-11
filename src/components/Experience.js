@@ -77,10 +77,9 @@ const Experience = () => {
               company="Plansee E/G Electro-Graph, Inc."
               time="January 2017 - January 2023"
               address="Vista, CA."
-              work="Worked on a team responsible for developing a new mobile app
-              feature that allowed users to create and share short-form video
-              content, including designing and implementing a new user interface
-              and developing the backend infrastructure to support the feature."
+              work="Processed reports on non-comforming products and communicated the necessary information back to the vendors and prevented recurrences of the same issue.
+              Managed the calibration of measuring equipment, determined calibration intervals, and maintained records of measuring tools so at all points the manufacturing department and customers received accurate products.
+              Implemented and maintained the inspection space utilizing 5S methods for improved workflow."
             />
 
             <Details
@@ -88,7 +87,7 @@ const Experience = () => {
               company="Plansee E/G Electro-Graph, Inc."
               time="July 2012- January 2017"
               address="Vista, CA."
-              work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
+              work="Inspected raw material and manufactured parts according to their respective prints. Communicated with different departments regarding the passing and failures based on the ispection results. "
             />
 
             <Details
@@ -96,10 +95,7 @@ const Experience = () => {
               company="Plansee E/G Electro-Graph, Inc."
               time="May 2010 - July 2012"
               address="Vista, CA."
-              work="Worked on a team responsible for developing new features for
-              Microsoft's Windows operating system, including implementing a new
-              user interface for a system settings panel and optimizing the
-              performance of a core system component."
+              work="Cleaned and installed any necessary hardware to manufactured parts. Assembled new or refurbished grid assemblies."
             />
           </ul>
         </div>
