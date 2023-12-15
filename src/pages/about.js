@@ -60,22 +60,18 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>Miguel Ortiz</strong>, a web developer with 
-                a passion for creating beautiful, functional, and user-centered digital 
-                experiences. I am always looking for new and innovative ways to bring 
-                my clients&apos; visions to life.
+                Hi, I&apos;m <strong>Miguel Ortiz</strong>. As a web developer, I am known for creating
+                digital experiences that are visually appealing, functional, and focused on the user's 
+                experience. I'm always searching for innovative and new approaches to turn my 
+                clients&apos; visions into reality.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                I believe that design goes beyond just making things pretty; it also involves solving problems
+                and creating intuitive and enjoyable experiences for users.
               </p>
               <p className="font-medium">
-                Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                My dedication to design excellence and user-centered thinking is evident as each new project I create, whether it's
+                a website, mobile app. or other digital product.
               </p>
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
