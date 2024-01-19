@@ -8,7 +8,7 @@ import Link from "next/link";
 import proj1 from "../../public/images/projects/voy-amie.png";
 import proj2 from "../../public/images/projects/codewithme.jpg";
 import proj3 from "../../public/images/projects/carcar.png";
-import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
+import proj4 from "../../public/images/projects/crypto-tracker.png";
 import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
 import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -232,6 +232,26 @@ export default function Projects() {
                 img={proj3}
                 link="https://gitlab.com/miguemigue/carcar"
                 github="https://gitlab.com/miguemigue/carcar"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Project"
+                title="MyCryptoTracker"
+                summary={
+                  <ul className="list-inside">
+                      <li>
+                      Crypto Tracker application using React and Tailwind CSS. Crypto API is utilized to use real time data.
+                      </li>
+                       <li>
+                       Skills: React, Tailwind CSS, Crypto API
+                      </li>
+                    </ul>
+
+                }
+                img={proj4}
+                link="https://github.com/miguemigue25/Crypto-2"
+                github="https://github.com/miguemigue25/Crypto-2"
               />
             </div>
             {/* <div className="col-span-12">
