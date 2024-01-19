@@ -250,7 +250,7 @@ export default function Projects() {
 
                 }
                 img={proj4}
-                link="https://github.com/miguemigue25/Crypto-2"
+                link="https://crypto-2-nine.vercel.app"
                 github="https://github.com/miguemigue25/Crypto-2"
               />
             </div>
