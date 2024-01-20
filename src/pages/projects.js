@@ -244,7 +244,7 @@ export default function Projects() {
                       Crypto Tracker application using React and Tailwind CSS. Crypto API is utilized to use real time data.
                       </li>
                        <li>
-                       Skills: React, Tailwind CSS, Crypto API
+                       Skills: React Router, React Context API, Tailwind CSS, Crypto API, and Recharts to add Interactive charts.
                       </li>
                     </ul>
 
