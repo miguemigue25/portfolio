@@ -270,7 +270,7 @@ export default function Projects() {
 
                 }
                 img={proj5}
-                link="https://crypto-2-nine.vercel.app"
+                link="https://quiz-app-eight-psi.vercel.app/"
                 github="https://github.com/miguemigue25/Quiz-app"
               />
             </div>
