@@ -10,7 +10,7 @@ import proj2 from "../../public/images/projects/codewithme.jpg";
 import proj3 from "../../public/images/projects/carcar.png";
 import proj4 from "../../public/images/projects/crypto-tracker.png";
 import proj5 from "../../public/images/projects/quiz-1.png";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
+// import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
