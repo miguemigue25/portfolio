@@ -9,7 +9,7 @@ import proj1 from "../../public/images/projects/voy-amie.png";
 import proj2 from "../../public/images/projects/codewithme.jpg";
 import proj3 from "../../public/images/projects/carcar.png";
 import proj4 from "../../public/images/projects/crypto-tracker.png";
-import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
+import proj5 from "../../public/images/projects/quiz-1.png";
 import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -252,6 +252,26 @@ export default function Projects() {
                 img={proj4}
                 link="https://crypto-2-nine.vercel.app"
                 github="https://github.com/miguemigue25/Crypto-2"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Project"
+                title="Programming Quiz App"
+                summary={
+                  <ul className="list-inside">
+                      <li>
+                      A quiz app with programming questions about Django, Python and JavaScript. Questions are randomnized, color coded for right (green) and wrong (red) answers with a final score at the end of the quiz.
+                      </li>
+                       <li>
+                       Skills: React, Vite, CSS, and HTML.
+                      </li>
+                    </ul>
+
+                }
+                img={proj5}
+                link="https://crypto-2-nine.vercel.app"
+                github="https://github.com/miguemigue25/Quiz-app"
               />
             </div>
             {/* <div className="col-span-12">
