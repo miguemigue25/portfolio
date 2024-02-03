@@ -12,6 +12,7 @@ import proj4 from "../../public/images/projects/crypto-tracker.png";
 import proj5 from "../../public/images/projects/quiz-1.png";
 // import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
+import projUpcoming1 from "../../public/images/projects/chess.png"; 
 
 const FramerImage = motion(Image);
 
@@ -162,6 +163,53 @@ const Project = ({ title, type, summary, img, link, github }) => {
   );
 };
 
+const UpcomingProject = ({ type, title, summary, img }) => {
+  return (
+    <article
+      className="relative flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl 
+      border  border-solid  border-dark bg-light p-6  shadow-2xl dark:border-light dark:bg-dark 
+      xs:p-4
+      "
+    >
+      <div
+        className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%] rounded-[2rem] rounded-br-3xl bg-dark
+        dark:bg-light  md:-right-2 md:w-[101%] xs:h-[102%]
+       xs:rounded-[1.5rem]  "
+      />
+
+      <div className="w-full cursor-pointer overflow-hidden rounded-lg">
+        <FramerImage
+          src={img}
+          className="h-auto w-full"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
+          sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+        />
+      </div>
+      <div className="mt-4 flex w-full flex-col items-start justify-between">
+        <span className="text-xl font-medium text-primary dark:text-primaryDark lg:text-lg md:text-base">
+          {type}
+        </span>
+
+        <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">
+          {title}
+        </h2>
+        <p className="my-2 rounded-md font-medium text-dark dark:text-light sm:text-sm">
+          {summary}
+        </p>
+        {/* You can leave this section empty or customize it further */}
+        <div className="flex w-full items-center justify-between">
+          {/* Add any additional content or components here */}
+        </div>
+      </div>
+    </article>
+  );
+};
+
+
+
 export default function Projects() {
   return (
     <>
@@ -186,7 +234,7 @@ export default function Projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Featured Project"
+                type="Featured Project (class project)"
                 title="Voy-Amie"
                 summary="An interactive web app where all the trip planning becomes fun! Invite friends to your trip or be invited to one of their trips, trip partcipipants can vote on activities and leave comments. Instead of having to do all of that in so many apps, you can do it just in Voy-Amie and have fun while doing it!"
                 img={proj1}
@@ -196,7 +244,7 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Project"
+                type="Project (class project)"
                 title="Code With Me"
                 summary={
                   <ul className="list-inside">
@@ -216,12 +264,12 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Project"
+                type="Project (class project)"
                 title="CarCar"
                 summary={
                   <ul className="list-inside">
                       <li>
-                      Full Stack Application for managing a car dearership.
+                      Full Stack Application for managing a car dealership.
                       </li>
                        <li>
                        Skills: React, Django, BootStrap, Docker, Rest API
@@ -236,7 +284,7 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Project"
+                type="Project (personal project)"
                 title="MyCryptoTracker"
                 summary={
                   <ul className="list-inside">
@@ -256,7 +304,7 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Project"
+                type="Project (personal project)"
                 title="Programming Quiz App"
                 summary={
                   <ul className="list-inside">
@@ -274,36 +322,51 @@ export default function Projects() {
                 github="https://github.com/miguemigue25/Quiz-app"
               />
             </div>
-            {/* <div className="col-span-12">
-              <FeaturedProject
-                type="Portfolio Website"
-                title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
-                img={proj4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+          </div>
+        </Layout>
+        <Layout className="pt-16">
+          <AnimatedText 
+            text="Upcoming Projects!"
+            className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+          />
+          <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+            <div className="col-span-6 sm:col-span-12">
+              <UpcomingProject
+                type="Upcoming Project (personal project)"
+                title="Chess Game"
+                summary={
+                  <ul className="list-inside">
+                    <li>
+                    A fun game of chess!!
+                    </li>
+                    <li>
+                    Skills: ...
+                    </li>
+                  </ul>
+                }
+                img={projUpcoming1}    
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Website Template"
-                img={proj5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Blog Website"
-                img={proj6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
+            {/* <div className="col-span-6 sm:col-span-12">
+              <UpcomingProject
+                type="Upcoming Project"
+                title="Chess Game"
+                summary={
+                  <ul className="list-inside">
+                    <li>
+                    A fun game of chess!!
+                    </li>
+                    <li>
+                    Skills: ...
+                    </li>
+                  </ul>
+                }
+                img={projUpcoming1}    
               />
             </div> */}
           </div>
-        </Layout>
+
+        </Layout>    
       </main>
     </>
   );
