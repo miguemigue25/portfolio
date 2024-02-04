@@ -102,10 +102,10 @@ const Navbar = () => {
         <motion.a
           target={"_blank"}
           className="w-6 mr-3"
-          href="https://gitlab.com/miguemigue"
+          href="https://github.com/miguemigue25"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my twitter profile"
+          aria-label="Checkout my github profile"
         >
           {/* <TwitterIcon />
         </motion.a>
