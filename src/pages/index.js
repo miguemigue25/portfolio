@@ -28,7 +28,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="ProfilePic"
-                className="h-auto w-full"
+                className="h-auto w-full rounded-2xl"
                 sizes="80vw"
                 priority
                 style={{ border: '25px solid black' }}
