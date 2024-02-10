@@ -10,9 +10,10 @@ import proj2 from "../../public/images/projects/codewithme.jpg";
 import proj3 from "../../public/images/projects/carcar.png";
 import proj4 from "../../public/images/projects/crypto-tracker.png";
 import proj5 from "../../public/images/projects/quiz-1.png";
+import proj6 from "../../public/images/projects/chess-2.png";
 // import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
-import projUpcoming1 from "../../public/images/projects/chess.png"; 
+import projUpcoming1 from "../../public/images/projects/e-commerce.png"; 
 
 const FramerImage = motion(Image);
 
@@ -244,6 +245,26 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
+                type="Project (personal project)"
+                title="Chess Game"
+                summary={
+                  <ul className="list-inside">
+                      <li>
+                      A fun game of chess utilizing new skill of mine, TypeScript! Who will be the one that wins? Practice as many times you want. If it's your turn, and the king is safe, it will display what are your potential moves based on the piece you pick up.
+                      </li>
+                       <li>
+                       Skills: React, TypeScript, CSS, and HTML.
+                      </li>
+                    </ul>
+
+                }
+                img={proj6}
+                link="https://chess-game-five-sigma.vercel.app/"
+                github="https://github.com/miguemigue25/chess-game"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
                 type="Project (class project)"
                 title="Code With Me"
                 summary={
@@ -322,6 +343,7 @@ export default function Projects() {
                 github="https://github.com/miguemigue25/Quiz-app"
               />
             </div>
+            
           </div>
         </Layout>
         <Layout className="pt-16">
@@ -333,11 +355,11 @@ export default function Projects() {
             <div className="col-span-6 sm:col-span-12">
               <UpcomingProject
                 type="Upcoming Project (personal project)"
-                title="Chess Game"
+                title="E-commerce"
                 summary={
                   <ul className="list-inside">
                     <li>
-                    A fun game of chess!!
+                    E-commerce app...
                     </li>
                     <li>
                     Skills: ...
