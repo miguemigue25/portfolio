@@ -252,6 +252,7 @@ export default function Projects() {
                       A fun and easy to use food ordering app. Whether on the computer or phone, ordering food has never been easier. <br />
                     </li>
                     <li>
+                      <br />
                     </li>
                     <li>
                       Skills: Next.js, React, Tailwind CSS, Mongo Database, OAuth, AWS S3,and Stripe for payment processes.
