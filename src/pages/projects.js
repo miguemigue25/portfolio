@@ -245,7 +245,20 @@ export default function Projects() {
               <FeaturedProject
                 type="Featured Project (Personal project)"
                 title="Twin's Pizza"
-                summary="MERN fullstack Pizza ordering app using Mongo database, Express, React, Next.js, Tailwind CSS, and Stripe for payment processes."
+                // summary="MERN fullstack Pizza ordering app using Mongo database, Express, React, Next.js, Tailwind CSS, and Stripe for payment processes."
+                summary={
+                  <ul className="list-inside">
+                    <li>
+                      A fun and easy to use food ordering app. Whether on the computer or phone, ordering food has never been easier. <br />
+                    </li>
+                    <li>
+                    </li>
+                    <li>
+                      Skills: Next.js, React, Tailwind CSS, Mongo Database, OAuth, AWS S3,and Stripe for payment processes.
+                    </li>
+                  </ul>
+
+                }
                 img={proj7}
                 link="https://food-ordering-app-umber-three.vercel.app/"
                 github="https://github.com/miguemigue25/food-ordering-app"
