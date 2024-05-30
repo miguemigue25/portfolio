@@ -234,14 +234,6 @@ export default function Projects() {
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
-              {/* <FeaturedProject
-                type="Featured Project (class project)"
-                title="Voy-Amie"
-                summary="An interactive web app where all the trip planning becomes fun! Invite friends to your trip or be invited to one of their trips, trip partcipipants can vote on activities and leave comments. Instead of having to do all of that in so many apps, you can do it just in Voy-Amie and have fun while doing it!"
-                img={proj1}
-                link="https://vacationeers.gitlab.io/voy-amie/"
-                github="https://gitlab.com/vacationeers/voy-amie"
-              /> */}
               <FeaturedProject
                 type="Featured Project (Personal project)"
                 title="Twin's Pizza"
@@ -284,6 +276,8 @@ export default function Projects() {
                 link="https://chess-game-five-sigma.vercel.app/"
                 github="https://github.com/miguemigue25/chess-game"
               />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Project (personal project)"
                 title="Voy-Amie"
@@ -429,7 +423,7 @@ export default function Projects() {
           </div>
 
         </Layout>
-      </main>
+      </main >
     </>
   );
 }
