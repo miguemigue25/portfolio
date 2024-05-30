@@ -11,7 +11,7 @@ import proj3 from "../../public/images/projects/carcar.png";
 import proj4 from "../../public/images/projects/crypto-tracker.png";
 import proj5 from "../../public/images/projects/quiz-1.png";
 import proj6 from "../../public/images/projects/chess-1.png";
-import proj7 from "../../public/images/projects/food=ordering.png";
+import proj7 from "../../public/images/projects/food-ordering.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import projUpcoming1 from "../../public/images/projects/e-commerce.png";
 
