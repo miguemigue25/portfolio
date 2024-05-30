@@ -11,9 +11,9 @@ import proj3 from "../../public/images/projects/carcar.png";
 import proj4 from "../../public/images/projects/crypto-tracker.png";
 import proj5 from "../../public/images/projects/quiz-1.png";
 import proj6 from "../../public/images/projects/chess-1.png";
-// import proj6 from "../../public/images/projects/devdreaming.jpg";
+import proj7 from "../../public/images/projects/food=ordering.png";
 import TransitionEffect from "@/components/TransitionEffect";
-import projUpcoming1 from "../../public/images/projects/e-commerce.png"; 
+import projUpcoming1 from "../../public/images/projects/e-commerce.png";
 
 const FramerImage = motion(Image);
 
@@ -148,7 +148,7 @@ const Project = ({ title, type, summary, img, link, github }) => {
             "
             aria-label={title}
           >
-            
+
           </Link>
           <Link
             href={github}
@@ -234,13 +234,21 @@ export default function Projects() {
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
-              <FeaturedProject
+              {/* <FeaturedProject
                 type="Featured Project (class project)"
                 title="Voy-Amie"
                 summary="An interactive web app where all the trip planning becomes fun! Invite friends to your trip or be invited to one of their trips, trip partcipipants can vote on activities and leave comments. Instead of having to do all of that in so many apps, you can do it just in Voy-Amie and have fun while doing it!"
                 img={proj1}
                 link="https://vacationeers.gitlab.io/voy-amie/"
                 github="https://gitlab.com/vacationeers/voy-amie"
+              /> */}
+              <FeaturedProject
+                type="Featured Project (Personal project)"
+                title="Twin's Pizza"
+                summary="MERN fullstack Pizza ordering app using Mongo database, Express, React, Next.js, Tailwind CSS, and Stripe for payment processes."
+                img={proj7}
+                link="https://food-ordering-app-umber-three.vercel.app/"
+                github="https://github.com/miguemigue25/food-ordering-app"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -249,18 +257,36 @@ export default function Projects() {
                 title="Chess Game"
                 summary={
                   <ul className="list-inside">
-                      <li>
+                    <li>
                       A fun game of chess utilizing new skill of mine, TypeScript! Who will be the one that wins? Practice as many times you want. If it's your turn, and the king is safe, it will display what are your potential moves based on the piece you pick up.
-                      </li>
-                       <li>
-                       Skills: React, TypeScript, CSS, and HTML.
-                      </li>
-                    </ul>
+                    </li>
+                    <li>
+                      Skills: React, TypeScript, CSS, and HTML.
+                    </li>
+                  </ul>
 
                 }
                 img={proj6}
                 link="https://chess-game-five-sigma.vercel.app/"
                 github="https://github.com/miguemigue25/chess-game"
+              />
+              <Project
+                type="Project (personal project)"
+                title="Voy-Amie"
+                summary={
+                  <ul className="list-inside">
+                    <li>
+                      An interactive web app where all the trip planning becomes fun! Invite friends to your trip or be invited to one of their trips, trip partcipipants can vote on activities and leave comments. Instead of having to do all of that in so many apps, you can do it just in Voy-Amie and have fun while doing it
+                    </li>
+                    <li>
+                      Skills: React, CSS, and HTML.
+                    </li>
+                  </ul>
+
+                }
+                img={proj1}
+                link="https://vacationeers.gitlab.io/voy-amie/"
+                github="https://gitlab.com/vacationeers/voy-amie"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -269,13 +295,13 @@ export default function Projects() {
                 title="Code With Me"
                 summary={
                   <ul className="list-inside">
-                      <li>
-                        An interactive app where a coder can practice their coding by answering questions. It also allows the coder to share gitlab/github information with other coders and if they're open for work. An employer can create an account and search coders open to work and that meet professional requirements.
-                      </li>
-                       <li>
-                        Skills: React, CSS, Python, Authentication, BootStrap, Docker, Rest API
-                      </li>
-                    </ul>
+                    <li>
+                      An interactive app where a coder can practice their coding by answering questions. It also allows the coder to share gitlab/github information with other coders and if they're open for work. An employer can create an account and search coders open to work and that meet professional requirements.
+                    </li>
+                    <li>
+                      Skills: React, CSS, Python, Authentication, BootStrap, Docker, Rest API
+                    </li>
+                  </ul>
 
                 }
                 img={proj2}
@@ -289,13 +315,13 @@ export default function Projects() {
                 title="CarCar"
                 summary={
                   <ul className="list-inside">
-                      <li>
+                    <li>
                       Full Stack Application for managing a car dealership.
-                      </li>
-                       <li>
-                       Skills: React, Django, BootStrap, Docker, Rest API
-                      </li>
-                    </ul>
+                    </li>
+                    <li>
+                      Skills: React, Django, BootStrap, Docker, Rest API
+                    </li>
+                  </ul>
 
                 }
                 img={proj3}
@@ -309,13 +335,13 @@ export default function Projects() {
                 title="MyCryptoTracker"
                 summary={
                   <ul className="list-inside">
-                      <li>
+                    <li>
                       Crypto Tracker application using React and Tailwind CSS. Crypto API is utilized to use real time data.
-                      </li>
-                       <li>
-                       Skills: React Router, React Context API, Tailwind CSS, Crypto API, and Recharts to add Interactive charts.
-                      </li>
-                    </ul>
+                    </li>
+                    <li>
+                      Skills: React Router, React Context API, Tailwind CSS, Crypto API, and Recharts to add Interactive charts.
+                    </li>
+                  </ul>
 
                 }
                 img={proj4}
@@ -329,13 +355,13 @@ export default function Projects() {
                 title="Programming Quiz App"
                 summary={
                   <ul className="list-inside">
-                      <li>
+                    <li>
                       A quiz app with programming questions about Django, Python and JavaScript. Questions are randomnized, color coded for right (green) and wrong (red) answers with a final score at the end of the quiz.
-                      </li>
-                       <li>
-                       Skills: React, Vite, CSS, and HTML.
-                      </li>
-                    </ul>
+                    </li>
+                    <li>
+                      Skills: React, Vite, CSS, and HTML.
+                    </li>
+                  </ul>
 
                 }
                 img={proj5}
@@ -343,11 +369,11 @@ export default function Projects() {
                 github="https://github.com/miguemigue25/Quiz-app"
               />
             </div>
-            
+
           </div>
         </Layout>
         <Layout className="pt-16">
-          <AnimatedText 
+          <AnimatedText
             text="Upcoming Projects!"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
@@ -359,14 +385,14 @@ export default function Projects() {
                 summary={
                   <ul className="list-inside">
                     <li>
-                    E-commerce app...
+                      E-commerce app...
                     </li>
                     <li>
-                    Skills: ...
+                      Skills: ...
                     </li>
                   </ul>
                 }
-                img={projUpcoming1}    
+                img={projUpcoming1}
               />
             </div>
             {/* <div className="col-span-6 sm:col-span-12">
@@ -388,7 +414,7 @@ export default function Projects() {
             </div> */}
           </div>
 
-        </Layout>    
+        </Layout>
       </main>
     </>
   );
